@@ -1,4 +1,3 @@
-
 import Book from './modules/book.js';
 import BookStore from './modules/BookStore.js';
 import UserInterface from './modules/UserInterface.js';
@@ -7,9 +6,9 @@ import { DateTime } from './modules/luxon.js';
 UserInterface.displayBooks();
 
 const displayDate = () => {
-    const now = DateTime.now();
-    const dateNow = document.getElementById('date');
-    dateNow.innerHTML = `${now.day}-${now.month}-${now.year}, ${now.hour}:${now.minute}:${now.second}`;
+  const now = DateTime.now();
+  const dateNow = document.getElementById('date');
+  dateNow.innerHTML = `${now.day}-${now.month}-${now.year}, ${now.hour}:${now.minute}:${now.second}`;
 };
 
 displayDate();
