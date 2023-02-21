@@ -26,7 +26,6 @@ addNewBook.addEventListener('click', (e) => {
   UserInterface.displayBooks();
 });
 
-
 // navigation interaction
 const booklist = document.getElementById('bookshelf');
 const list = document.getElementById('list');
