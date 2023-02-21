@@ -80,18 +80,36 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-NA
+Install this project with:
+
+-Git
+-Node
 ### Usage
 
 To run the project, execute the following command:
 
-NA
+-After Cloning this repo to your local machine
+-Open the index.html in your browser
+-Open with Live Server
 
 ### Run tests
 
 To run tests, run the following command:
 
-NA
+o track linter errors locally follow these steps:
+
+Download all the dependencies run:
+
+npm install
+Track HTML linter errors run:
+
+npx hint .
+Track CSS linter errors run:
+
+npx stylelint "**/*.{css,scss}"
+Track JavaScript linter errors run:
+
+npx eslint .
 
 ### Deployment
 
