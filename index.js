@@ -1,5 +1,5 @@
 import Book from './modules/book.js';
-import BookStore from './modules/BookStore.js';
+import BookStore from './modules/booklibrary.js';
 import UserInterface from './modules/UserInterface.js';
 import { DateTime } from './modules/luxon.js';
 
@@ -13,7 +13,6 @@ const displayDate = () => {
 
 displayDate();
 
-// Add New Book Starts Here
 const title = document.getElementById('title');
 const author = document.getElementById('author');
 const addNewBook = document.querySelector('.submit');
@@ -26,7 +25,7 @@ addNewBook.addEventListener('click', (e) => {
   author.value = '';
   UserInterface.displayBooks();
 });
-// Add New Book Ends Here
+
 
 // navigation interaction
 const booklist = document.getElementById('bookshelf');

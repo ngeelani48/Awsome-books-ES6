@@ -1,4 +1,4 @@
-import BookStore from './BookStore.js';
+import BookStore from './booklibrary.js';
 
 class UserInterface {
   static displayBooks() {
